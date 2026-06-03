@@ -1,0 +1,5 @@
+interface:
+  display_name: "DRL HPO"
+  short_description: "Plan staged DRL hyperparameter tuning with robust validation."
+  default_prompt: "Use $drl-hyperparameter-tuning to design a staged DRL hyperparameter tuning plan."
+
