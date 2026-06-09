@@ -1,8 +1,6 @@
 # Windows Codex Patch Prompt
 
-English-only operational prompt for Codex agents on Windows. Read this only when you need to apply manual patches, diagnose `apply_patch` failures, or handle PowerShell/UTF-8/Markdown patch edge cases.
-
-`AGENTS.md` owns general repository behavior: scope control, evidence, UTF-8 reading, verification, and final reporting. Do not duplicate those rules here. This file only covers Windows patch transport and parser failure modes.
+For Codex AI agents on Windows. Read this only when you need to apply manual patches, diagnose `apply_patch` failures, or handle PowerShell/UTF-8/Markdown patch edge cases.
 
 ## Core Decision
 
