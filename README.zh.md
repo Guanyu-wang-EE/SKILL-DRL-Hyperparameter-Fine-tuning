@@ -2,7 +2,7 @@
 
 [English](README.md) | 简体中文
 
-这是一个简洁的 Codex skill，用于规划和审查深度强化学习（Deep Reinforcement Learning, DRL）的超参数优化（Hyperparameter Optimization, HPO）。
+Codex skill，用于规划和审查深度强化学习（Deep Reinforcement Learning, DRL）的超参数优化（Hyperparameter Optimization, HPO）。
 
 它的目标很直接：先有 baseline，再分阶段搜索；top config 必须多 seed 复跑；只有稳健候选才进入 longrun；最后留下图、日志和简短证据链。
 
@@ -17,7 +17,7 @@
 - 规划分阶段 trial budget
 - 避免单 seed best-trial 误判
 - 汇报前审查 HPO 证据
-- 写简洁 tuning report
+- 写 tuning report
 
 ## 核心关注点
 
