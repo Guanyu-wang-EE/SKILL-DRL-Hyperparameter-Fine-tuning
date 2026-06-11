@@ -11,8 +11,6 @@ Wrapper locations:
 ```text
 This skill repo: agents/apply_patch_windows.ps1
 This skill repo: agents/apply_patch.bat
-Typical target repo copy: tools/apply_patch_windows.ps1
-Typical target repo copy: tools/apply_patch.bat
 ```
 
 Decision table:
