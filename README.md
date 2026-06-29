@@ -1,5 +1,7 @@
 # DRL Hyperparameter Tuning Skill
 
+<p align="right"><strong>English</strong> | <a href="README_zh.md">简体中文</a></p>
+
 A staged hyperparameter optimization skill for deep reinforcement learning studies, with seed checks, validation gates, and reporting discipline.
 
 This repository is the Git-backed source mirror for the skill. Repository documentation belongs here; installed runtime copies should stay lean and contain only files needed for execution.
