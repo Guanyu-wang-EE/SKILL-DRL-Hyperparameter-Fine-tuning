@@ -5,6 +5,31 @@ description: Use when planning, implementing, auditing, or reporting hyperparame
 
 # DRL Hyperparameter Tuning
 
+## Hard Gates
+
+- Do not recommend a search space before identifying algorithm, environment, objective, budget, seed policy, and validation protocol.
+- Do not claim an optimal hyperparameter set from a single lucky trial or from training metrics without validation/test evidence.
+- Preserve reproducibility: fixed seeds, trial logs, search configuration, hardware/runtime notes, and failure records must be explicit when available.
+- Do not add .git, .gitignore, README files, or __pycache__ to the live installed skill folder.
+
+## Reference Routing
+
+| Task | Load or run |
+|---|---|
+| Define DRL search space | references/search-space-taxonomy.md |
+| Plan staged tuning | references/staging-protocol.md |
+| Audit overfitting or validation risk | references/risk-and-cross-validation.md |
+| Prepare figures or concise report | references/visualization-and-reporting.md |
+| Final recommendation or readiness claim | references/final-quality-gates.md |
+| Edit or install this skill | Run the commands under Verification |
+
+## Verification
+
+After editing this skill itself, run:
+
+- python C:\Users\Admin\.codex\skills\.system\skill-creator\scripts\quick_validate.py <this skill folder>
+- python C:\Users\Admin\.codex\skills\.system\skill-creator\scripts\audit_skill.py <this skill folder> --strict
+
 ## Overview
 
 Use this skill to design scientifically defensible hyperparameter optimization (HPO) for deep reinforcement learning (DRL). The default objective is to maximize the user's stated reward or metric, while preventing noisy best-trial conclusions through staged search, seed checks, longruns, and visual evidence.
